@@ -1,0 +1,435 @@
+repo_name: donaldww/hexpm
+report_id: 714a1d40ef24128e014cc7f43c6c9a10
+repo_type: Public
+timestamp: '2023-11-09T17:11:38+00:00'
+requested_by: edennis
+provider: github
+branch: main
+detected_tools_count: 34
+tools:
+- name: Elixir
+  description: Dynamic, functional language designed for building scalable and maintainable
+    applications
+  website_url: http://elixir-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1974/drop.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Eric Meadows-Jönsson
+  last_updated_on: 2019-08-12 07:56:32.000000000 Z
+- name: Phoenix Framework
+  description: Most web frameworks make you choose between speed and a productive
+    environment. Phoenix gives you both.
+  website_url: http://www.phoenixframework.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/3262/-s9uoLIN.png
+  detection_source: mix.exs
+  last_updated_by: Todd Resudek
+  last_updated_on: 2020-05-11 19:06:24.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source: assets/package.json
+  last_updated_by: Eric Meadows-Jönsson
+  last_updated_on: 2019-08-12 07:56:32.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Eric Meadows-Jönsson
+  last_updated_on: 2020-05-19 14:01:41.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source: mix.exs
+  last_updated_by: Weslei Juan Moser Pereira
+  last_updated_on: 2021-07-26 17:29:09.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.12.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Todd Resudek
+  last_updated_on: 2019-08-10 20:49:56.000000000 Z
+- name: Cowboy
+  description: 'Small, fast, modular HTTP server written in Erlang. '
+  website_url: https://github.com/ninenines/cowboy
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/2738/1166740.png
+  detection_source: mix.exs
+  last_updated_by: Todd Resudek
+  last_updated_on: 2020-05-10 15:57:10.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: assets/package.json
+  last_updated_by: Eric Meadows-Jönsson
+  last_updated_on: 2016-01-29 17:37:54.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: Eric Meadows-Jönsson
+  last_updated_on: 2021-01-15 09:57:56.000000000 Z
+- name: Google Cloud Build
+  description: Continuously build, test, and deploy.
+  website_url: https://cloud.google.com/cloud-build
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Deployment
+  image_url: https://img.stackshare.io/service/9309/PoHJY3K8_400x400.jpg
+  detection_source: cloudbuild.yaml
+  last_updated_by: Eric Meadows-Jönsson
+  last_updated_on: 2018-09-17 20:40:18.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/webpack.config.js
+  last_updated_by: Todd Resudek
+  last_updated_on: 2019-08-10 20:49:56.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: assets/yarn.lock
+  last_updated_by: Eric Meadows-Jönsson
+  last_updated_on: 2016-12-14 23:52:47.000000000 Z
+- name: highlight.js
+  description: Syntax highlighter in JavaScript
+  website_url: https://highlightjs.org/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/6888/c17e7d9688d86bd9f9506ec1fbd6d200_400x400.png
+  detection_source: assets/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2020-12-07 10:53:26.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: assets/package.json
+  last_updated_by: Eric Meadows-Jönsson
+  last_updated_on: 2016-01-29 17:37:54.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: ecto
+  website_url: https://hexdocs.pm/ecto/Ecto.html
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4397/no-img-open-source.png
+  detection_source: mix.exs
+  last_updated_by: Wojtek Mach
+  last_updated_on: 2020-03-22 20:42:11.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.12.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Todd Resudek
+  last_updated_on: 2019-08-10 20:49:56.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.12.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Todd Resudek
+  last_updated_on: 2019-08-10 20:49:56.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Eric Meadows-Jönsson
+  last_updated_on: 2019-08-12 07:56:32.000000000 Z
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Todd Resudek
+  last_updated_on: 2019-08-10 20:49:56.000000000 Z
+- name: exports-loader
+  description: Exports loader module for webpack
+  package_url: https://www.npmjs.com/exports-loader
+  version: 0.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16572/default_aaf5839b9bd35cf60ebf8e1b59d64d8e3b398aaa.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Eric Meadows-Jönsson
+  last_updated_on: 2019-08-12 07:56:32.000000000 Z
+- name: file-loader
+  description: A file loader module for webpack
+  package_url: https://www.npmjs.com/file-loader
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Todd Resudek
+  last_updated_on: 2020-05-14 03:47:42.000000000 Z
+- name: mini-css-extract-plugin
+  description: Extracts CSS into separate files
+  package_url: https://www.npmjs.com/mini-css-extract-plugin
+  version: 0.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15992/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Todd Resudek
+  last_updated_on: 2019-08-10 20:49:56.000000000 Z
+- name: optimize-css-assets-webpack-plugin
+  description: A Webpack plugin to optimize \ minimize CSS assets
+  package_url: https://www.npmjs.com/optimize-css-assets-webpack-plugin
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15964/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Todd Resudek
+  last_updated_on: 2019-08-10 20:49:56.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Todd Resudek
+  last_updated_on: 2019-08-10 20:49:56.000000000 Z
+- name: sass
+  description: A pure JavaScript implementation of Sass
+  package_url: https://www.npmjs.com/sass
+  version: 1.35.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Christopher Lai
+  last_updated_on: 2021-06-27 11:13:30.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 7.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Christopher Lai
+  last_updated_on: 2021-06-27 11:13:30.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Eric Meadows-Jönsson
+  last_updated_on: 2019-08-12 07:56:32.000000000 Z
+- name: uglifyjs-webpack-plugin
+  description: UglifyJS plugin for webpack
+  package_url: https://www.npmjs.com/uglifyjs-webpack-plugin
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15953/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Todd Resudek
+  last_updated_on: 2019-08-10 20:49:56.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 2.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: assets/yarn.lock
+  detection_source: assets/package.json
+  last_updated_by: Todd Resudek
+  last_updated_on: 2019-08-10 20:49:56.000000000 Z
