@@ -2,7 +2,7 @@ repo_name: donaldww/hexpm
 report_id: 714a1d40ef24128e014cc7f43c6c9a10
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:18:45+00:00'
+timestamp: '2024-02-29T18:11:16+00:00'
 requested_by: edennis
 provider: github
 branch: main
@@ -114,7 +114,7 @@ tools:
   last_updated_by: Todd Resudek
   last_updated_on: 2019-08-10 20:49:56.000000000 Z
 - name: Cowboy
-  description: 'Small, fast, modular HTTP server written in Erlang. '
+  description: Small, fast, modular HTTP server written in Erlang.
   website_url: https://github.com/ninenines/cowboy
   license: ISC
   open_source: true
